@@ -1,0 +1,11 @@
+This project uses a small set of preloaded sample texts included directly within the notebook. These text samples represent different domains such as:
+
+Product Reviews
+
+Social Media Posts
+
+News Articles
+
+Academic Writing
+
+No external datasets are needed to run or test the preprocessing pipeline.
