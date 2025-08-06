@@ -1,0 +1,10 @@
+REQUIREMENTS:
+
+- Python 3.9 or higher  
+- NumPy  
+- SciPy  
+- librosa  
+- OpenCV (for visual signal processing)  
+- TensorFlow or PyTorch (for machine learning models)  
+- NLTK (for text processing)  
+- Matplotlib (for visualization)  
