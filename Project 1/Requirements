@@ -1,0 +1,17 @@
+To run this NLP preprocessing project, ensure you have Python 3.8 or above installed. The following Python libraries are required:
+
+NLTK – for tokenization, stop word removal, and stemming
+
+spaCy – for advanced tokenization and lemmatization
+
+pandas and NumPy – for data handling and analysis
+
+matplotlib and seaborn – for data visualization and comparison plots
+
+You’ll also need to download a few resources when setting up:
+
+NLTK’s stopwords and tokenizer packages
+
+spaCy’s English language model (en_core_web_sm)
+
+All required libraries and resources are common in NLP projects and can be installed via pip and nltk.download() or spacy download commands.
