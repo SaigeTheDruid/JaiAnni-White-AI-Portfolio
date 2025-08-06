@@ -1,0 +1,4 @@
+Requirements
+- Python 3.7+  
+- Jupyter or Google Colab environment  
+- Required libraries: `nltk`, `textblob`, `vaderSentiment`, `scikit-learn`, `librosa`, `pandas`, `matplotlib`, `seaborn`
