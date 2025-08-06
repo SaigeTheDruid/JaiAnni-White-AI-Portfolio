@@ -1,10 +1,6 @@
-REQUIREMENTS:
+Requirements
 
-- Python 3.9 or higher  
-- NumPy  
-- SciPy  
-- librosa  
-- OpenCV (for visual signal processing)  
-- TensorFlow or PyTorch (for machine learning models)  
-- NLTK (for text processing)  
-- Matplotlib (for visualization)  
+- Python 3.x, with these libraries:  
+  `numpy`, `pandas`, `scikit-learn`, `nltk`, `gensim`, `matplotlib` (optional)  
+- Jupyter Notebook or Google Colab  
+- Internet access (for downloading pretrained embeddings and NLTK corpora)
