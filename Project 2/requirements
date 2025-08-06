@@ -1,6 +1,0 @@
-Requirements
-
-- Python 3.x, with these libraries:  
-  `numpy`, `pandas`, `scikit-learn`, `nltk`, `gensim`, `matplotlib` (optional)  
-- Jupyter Notebook or Google Colab  
-- Internet access (for downloading pretrained embeddings and NLTK corpora)
