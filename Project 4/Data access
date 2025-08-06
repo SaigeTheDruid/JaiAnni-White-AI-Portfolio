@@ -1,0 +1,37 @@
+Sample Data / Data Access Instructions
+
+All required data is either preloaded within the notebook or automatically downloaded through code execution. No manual downloads are necessary.
+
+Text Data
+
+The notebook uses built-in sample sentences and publicly available datasets through libraries like NLTK, TextBlob, and Scikit-learn.
+
+For machine learning tasks, datasets such as the Emotion Dataset or Twitter Sentiment Corpus are accessed via:
+
+from sklearn.datasets import fetch_openml
+
+
+VADER and TextBlob download their models automatically when first used.
+
+Audio Data
+The speech emotion recognition section uses small pre-included .wav samples.
+
+If needed, you can substitute with any .wav audio files containing human speech.
+
+Audio features are extracted using librosa:
+
+import librosa
+y, sr = librosa.load("sample.wav")
+External Downloads
+The notebook will automatically download required corpora such as:
+
+
+import nltk
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
+
+Internet access is required on first run to fetch models and corpora.
+
+Ensure all code cells are executed in order to trigger automatic downloads.
