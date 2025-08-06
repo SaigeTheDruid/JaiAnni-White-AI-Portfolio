@@ -1,0 +1,5 @@
+Requirements
+
+- Python 3.x  
+- Jupyter Notebook or Google Colab  
+- Libraries: `nltk`, `spacy`, `pandas`, `matplotlib`, `seaborn`
