@@ -1,0 +1,12 @@
+To run the code successfully, make sure the following libraries are installed:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn spacy nltk
+python -m spacy download en_core_web_sm
+
+You may also need to download NLTK resources:
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
