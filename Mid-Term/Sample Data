@@ -1,0 +1,33 @@
+Dataset Access
+The project uses the BBC News Dataset.
+
+Option 1: Download from Kaggle
+You can download the dataset from Kaggle:
+
+URL: https://www.kaggle.com/datasets/crowdflower/bbc-news-data
+
+Place the CSV file (bbc-text.csv) in the following path:
+
+data/bbc-text.csv
+Option 2: Use Sample Data Provided
+If you are using the included sample or preprocessed dataset:
+
+Ensure that the data/ folder exists and contains the CSV.
+
+File structure:
+
+
+project_root/
+│
+├── data/
+│   └── bbc-text.csv
+│
+├── notebooks/
+│   └── newsbot_midterm.ipynb
+
+Running the Code
+Clone the repository or download the project folder.
+
+Place the dataset in the /data directory.
+
+Open the Jupyter notebook under /notebooks and run each cell in sequence.
